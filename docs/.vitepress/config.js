@@ -5,7 +5,7 @@ export default {
   titleTemplate: 'Dev Blog',
   description: 'Prakashs Dev Blog',
   lang: 'en-UK',
-  base: '/blog/',
+  base: '/PersonalWebsite/',
   //cleanUrls: 'with-subfolders',
   themeConfig: {
     logo: '/ninja-laptop.png',
@@ -53,7 +53,7 @@ export default {
       ]
     }
   },
-  vite:{
+  vite: {
     plugins: [SearchPlugin()]
   }
 }
