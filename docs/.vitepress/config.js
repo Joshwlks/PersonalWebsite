@@ -1,17 +1,17 @@
 import { SearchPlugin } from 'vitepress-plugin-search'
 
 export default {
-  title: 'Useful',
-  titleTemplate: 'Dev Blog',
-  description: 'Prakashs Dev Blog',
+  title: 'Home',
+  titleTemplate: 'PersonalWebsite',
+  description: 'Joshwilkins.co.uk',
   lang: 'en-UK',
   base: '/PersonalWebsite/',
   //cleanUrls: 'with-subfolders',
   themeConfig: {
     logo: '/ninja-laptop.png',
     socialLinks: [
-      { icon: 'linkedin', link: 'https://uk.linkedin.com/in/prakash-odedra-892183183' },
-      { icon: 'github', link: 'https://github.com/podedra92' }
+      { icon: 'linkedin', link: 'https://uk.linkedin.com/in/jsh-wilkins/' },
+      { icon: 'github', link: 'https://github.com/Joshwlks' }
     ],
     nav: [
       { text: 'Courses', link: '/courses/' },
@@ -19,10 +19,10 @@ export default {
       { text: 'About Me', link: '/about/' },
     ],
     footer: {
-      copyright: '© 2022 Prakash Odedra'
+      copyright: '© 2022 Joshua Wilkins'
     },
     editLink: {
-      pattern: 'https://github.com/podedra92/blog',
+      pattern: 'https://github.com/Joshwlks/PersonalWebsite',
       text: 'Edit this page on GitHub'
     },
     sidebar: {

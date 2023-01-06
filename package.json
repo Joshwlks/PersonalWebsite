@@ -1,16 +1,16 @@
 {
-  "name": "blog",
+  "name": "PersonalWebsite",
   "version": "1.0.0",
-  "description": "Prakash tech blog",
+  "description": "Joshwilkins.co.uk",
   "main": "index.js",
-  "repository": "https://github.com/podedra92/blog.git",
-  "author": "podedra92 <podedra@hotmail.com>",
+  "repository": "https://github.com/Joshwlks/PersonalWebsite.git",
+  "author": "Joshwlks <joshwlks98@gmail.com>",
   "license": "MIT",
   "private": true,
   "devDependencies": {
     "flexsearch": "^0.7.31",
     "markdown-it": "^13.0.1",
-    "vitepress": "^1.0.0-alpha.33",
+    "vitepress": "^1.0.0-alpha.35",
     "vitepress-plugin-search": "^1.0.4-alpha.17",
     "vue": "^3.2.45"
   },
