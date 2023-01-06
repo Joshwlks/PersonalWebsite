@@ -14,8 +14,8 @@ export default {
       { icon: 'github', link: 'https://github.com/Joshwlks' }
     ],
     nav: [
-      { text: 'Courses', link: '/courses/' },
-      { text: 'Learnings', link: '/learning/' },
+      { text: 'Blog', link: '/learning/' },
+      { text: 'Projects', link: '/courses/' },
       { text: 'About Me', link: '/about/' },
     ],
     footer: {
