@@ -5,7 +5,7 @@ export default {
   titleTemplate: 'PersonalWebsite',
   description: 'Joshwilkins.co.uk',
   lang: 'en-UK',
-  base: '/PersonalWebsite/',
+  base: '/',
   //cleanUrls: 'with-subfolders',
   themeConfig: {
     logo: '/ninja-laptop.png',
