@@ -1,5 +1,5 @@
 <script>
-export default{
+export default {
   props: {
     post: {
       type: Object
@@ -13,14 +13,14 @@ export default{
       window.location.assign(link)
     },
     getImgUrl(name) {
-      if(name.includes("http")){
+      if (name.includes("http")) {
         return name
       }
       return new URL(`../../learning/assets/${name}`, import.meta.url).href
     }
   },
   computed: {
-    cssVars () {
+    cssVars() {
       return {
         '--box-shadow': this.isDark ? '#525252' : '#cee1ce',
         '--hover-background': this.isDark ? '#525252' : '#f1f3f3'
@@ -31,8 +31,7 @@ export default{
 </script>
 
 <template>
-  <div class="card" :style="cssVars"
-    @click="clickMethod(post.link)">
+  <div class="card" :style="cssVars" @click="clickMethod(post.link)">
     <div class="card__header">
       <img :src=getImgUrl(post.image) alt="card__image">
     </div>

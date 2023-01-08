@@ -5,7 +5,10 @@ import { useData } from 'vitepress'
 const { isDark } = useData()
 </script>
 
-# Latest Additions
+
+# Latest posts:
+---
+
 
 <div class="container">
 <PostCard
@@ -21,7 +24,7 @@ const { isDark } = useData()
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  gap: 1rem;
+  gap: 0.5rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 </style>

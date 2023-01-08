@@ -6,7 +6,7 @@ export default {
   description: 'Joshwilkins.co.uk',
   lang: 'en-UK',
   base: '/',
-  //cleanUrls: 'with-subfolders',
+  cleanUrls: 'with-subfolders',
   themeConfig: {
     logo: '/ninja-laptop.png',
     socialLinks: [
@@ -14,23 +14,19 @@ export default {
       { icon: 'github', link: 'https://github.com/Joshwlks' }
     ],
     nav: [
-      { text: 'Blog', link: '/learning/' },
-      { text: 'Projects', link: '/courses/' },
-      { text: 'About Me', link: '/about/' },
+      { text: 'Tech Blog', link: '/techblog/' },
+      { text: 'Projects', link: '/projects/' },
+      { text: 'About Me', link: '/aboutme/' },
     ],
     footer: {
       copyright: '© 2022 Joshua Wilkins'
     },
-    editLink: {
-      pattern: 'https://github.com/Joshwlks/PersonalWebsite',
-      text: 'Edit this page on GitHub'
-    },
     sidebar: {
-      '/learning/': [
+      '/techblog/': [
         {
           text: 'Introduction',
           items: [
-            { text: 'Recent Posts', link: '/learning/' },
+            { text: 'Recent Posts', link: '/techblog/' },
           ]
         },
         {
@@ -38,12 +34,11 @@ export default {
           collapsible: true,
           collapsed: true,
           items: [
-            { text: 'How this blog was made', link: '/learning/docs/this-blog' },
-            { text: 'Tips on Writing', link: '/learning/docs/my-docs' },
+            { text: 'AzureML Series: Part 1 an Introduction to Cloud ML', link: '/learning/docs/azureml-part1' }
           ]
         }
       ],
-      '/courses/': [
+      '/projects/': [
         {
           text: 'Config',
           items: [

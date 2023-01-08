@@ -1,0 +1,9 @@
+[
+    {
+        "image": "docs/cover-my-docs.png",
+        "title": "AzureML Series: Part 1 an Introduction to Cloud ML",
+        "description": "First part of my series detailing AzureML.",
+        "date": "28/12/2022",
+        "link": "./docs/azureml-part1"
+    }
+]
